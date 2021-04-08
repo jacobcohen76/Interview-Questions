@@ -1,4 +1,4 @@
-from sll import Node, construct_list
+from sll import Node, construct_sll
 
 def add_two_numbers_recursive(list1: Node, list2: Node) -> Node:
     def worker(list1: Node, list2: Node, carry: int) -> Node:
